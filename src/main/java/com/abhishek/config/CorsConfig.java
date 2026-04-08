@@ -23,7 +23,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry
                 // Apply this CORS rule to ALL paths starting with /api/
-                .addMapping("/api/**")
+                .addMapping("/**")
 
                 // These are the origins (frontends) we allow.
                 // Add your production domain here later (e.g. "https://abhishek.com")
