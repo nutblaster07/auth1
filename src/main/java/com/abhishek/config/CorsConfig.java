@@ -30,7 +30,8 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                         "http://localhost:5500",
                         "http://127.0.0.1:5500",
-                        "http://localhost:3000"   // in case you use a local Node server later
+                        "http://localhost:3000",
+                        "https://frontauth.vercel.app/"                          // in case you use a local Node server later
                 )
 
                 // Allow these HTTP methods
